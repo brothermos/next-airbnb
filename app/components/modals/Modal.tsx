@@ -69,21 +69,7 @@ const Modal: React.FC<ModalProps> = ({
 
   return (
     <>
-      <div
-        className="
-          fixed 
-          inset-0 
-          z-50 
-          flex 
-          items-center 
-          justify-center 
-          overflow-y-auto 
-          overflow-x-hidden 
-          bg-neutral-800/70 
-          outline-none
-          focus:outline-none
-        "
-      >
+      <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden bg-neutral-800/70 outline-none focus:outline-none">
         <div
           className="
           relative 
